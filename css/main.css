@@ -95,47 +95,41 @@ textarea {
 /* ==========================================================================
    Huguette's custom styles
    ========================================================================== */
-   .cta {
+    /*body {
+        background-color: #373543;
+    }
+    body img {
+        background-position: center center;
+        background-size:contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }*/
+   /*.cta {
        width: 255px;
        height: 135px;
        border-color: #e94953;
        border: 1px;
-   }
-
-   @media only screen and (min-width: 320px) {
-       body {
-         background-image: url("../img/visuel-sm.jpg"); /*ici image background de l'accueil                                  refaire deux autres versions pr tablette et smartphone car trop grnde pas proportionnelle */
-         background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center center;
-         background-attachment: fixed;
-        margin: 0 auto;
-      }
+       background-color: inherit;
+       margin-top: 300px;
+   }*/
+   body {
+     background-image: url("../img/fond-lg.jpg");
   }
-   @media only screen and (min-width: 599px) {
+
+  @media only screen and (max-width: 599px) {
+      body {
+        background-image: url("../img/fond-sm.jpg");
+     }
+
+  }
+   @media only screen and (max-width: 768px) {
 
        body {
-         background-image: url("../img/background-md.svg"); /*ici image background de l'accueil                                  refaire deux autres versions pr tablette et smartphone car trop grnde pas proportionnelle */
-         background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center center;
-         background-attachment: fixed;
-        margin: 0 auto;
+         background-image: url("../img/fond-md.jpg");
       }
 
    }
-   @media only screen and (min-width: 900px) {
-      body {
-        background-image: url("../img/background-lg.svg"); /*ici image background de l'accueil                                  refaire deux autres versions pr tablette et smartphone car trop grnde pas proportionnelle */
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-       margin: 0 auto;
-     }
 
-
-     }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
