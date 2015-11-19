@@ -101,6 +101,40 @@ textarea {
        border-color: #e94953;
        border: 1px;
    }
+@media only screen and (min-width: 900px) {
+   body {
+     background-image: url("../img/background-lg.svg"); /*ici image background de l'accueil                                  refaire deux autres versions pr tablette et smartphone car trop grnde pas proportionnelle */
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+    margin: 0 auto;
+  }
+   }
+
+  @media only screen and (min-width: 320px) {
+      body {
+        background-image: url("../img/visuel-sm.svg"); /*ici image background de l'accueil                                  refaire deux autres versions pr tablette et smartphone car trop grnde pas proportionnelle */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+       margin: 0 auto;
+     }
+
+  }
+   @media only screen and (min-width: 500px) {
+
+       body {
+         background-image: url("../img/background-md.svg"); /*ici image background de l'accueil                                  refaire deux autres versions pr tablette et smartphone car trop grnde pas proportionnelle */
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
+         background-attachment: fixed;
+        margin: 0 auto;
+      }
+
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
