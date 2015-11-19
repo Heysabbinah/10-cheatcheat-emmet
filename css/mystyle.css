@@ -121,16 +121,43 @@ textarea {
   .top-bar {
         margin-bottom: 20px;
     }
+    #block2 { /*------------block 2 et block 3 couleur de fond et bordure ------*/
+        height: 398px;
+        border: 6px solid white;
+    }
+    #block3 {
+        height: 398px;
+        border: 6px solid white;
+        border-left: 2px;
+    }
+    #blockcolor { /*------------style de la row 1 entiere ------*/
+        margin-top: 20px;
+
+    }
+
+    #blockcolor img {
+        margin-left: 15px;
+    }
 
    .button {
        z-index: 2;
        margin-top: 400px;
    }
    #side {
-       margin-top: 20px;
+       paddin-top: 20px;
        float: left;
+       margin: 0 auto;
    }
 
+@media all and (max-width:600px) {
+
+    #banner {
+        background-color: #363442;
+        padding-bottom: 15px;
+
+    }
+}
+}
 
 /* ==========================================================================
    Helper classes

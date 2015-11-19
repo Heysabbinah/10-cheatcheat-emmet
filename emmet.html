@@ -15,6 +15,20 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/mystyle.css">
     <script src="js/vendor/modernizr.js"></script>
+    <style>
+    .jaune {
+        background-color: #ffaa00;
+    }
+    .bleu {
+        background-color: #15b0bf;
+    }
+    .rose {
+        background-color:#9c0e7a;
+    }
+    .green {
+        background-color:#96cfb3;
+    }
+    </style>
 </head>
 <header>
 </header>
@@ -58,31 +72,44 @@
 
 <div class="row">
     <div id="banner"class="large-12 columns">
-        <img src="img/banner-logo.jpg"/>
+        <img src="img/banner-logo.png"/>
     </div>
+    <div class="row">
+        <div id="banner"class="large-12 columns show-for-medium-only">
+            <img src="img/banner_md.jpg"/>
+        </div>
+        <div class="row">
+            <div id="banner"class="large-12 columns show-for-small-only">
+                <img src="img/banner-sm.jpg"/>
+            </div>
 
-<div id="side"class="row hide-for-small-only">
+    <div class="row block1"><!--ici la premiere ligne selon le schema grille imbriquee-->
+        <div class="small-12 columns">
+            <div  id="blockcolor"class="row">
+                <div id="block1"class="small-4 columns show-for-large-only"><!--ici format portrait-->
+                  <img src="img/banner_side.jpg" />
+              </div><!--fin small 6 interne jaune-->
+
+          <div id="block2"class="small-4 column rose hide-for-small-only">
+                <p>nnn</p>
+           </div> <!--fin small 6 interne 2 bleu-->
+           <div id="block3"class="small-4 column offset-6 bleu hide-for-small-only">
+               <p>nnn</p>
+            </div>
+            <div id="block3"class="small-4 column offset-6 green hide-for-large-only hide-for-small-only">
+                <p>nnn</p>
+             </div> <!--fin small 6 interne 2 bleu-->
+      </div><!--fin row interne-->
+
+      </div><!--fin row interne-->
+  </div><!--fin du block left-->
+
+<!-- <div id="side"class="row hide-for-small-only">
+    <div class="large-5 columns">
     <img src="img/banner_side.jpg">
-</div>
+</div> -->
 
-<div class="row">
-    <div class="small-12 columns rose">
-    </div>
 
-<div class="row">
-        <div class="small-4 columns jaune">
-        </div>
-</div>
-<div class="row">
-        <div class="small-8 columns bleu">
-        </div>
-</div>
-<div class="row">
-      <div class="small-7 columns vert">
-      </div>
-  </div>
-
-</div>
 
 
 <!-- PLUGIN FOUNDATION -->
