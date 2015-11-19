@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Mon titre boilerplate/foundation</title>
+    <title>Cheatsheet Emmet</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,15 +23,27 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <!-- <div class="row block1">
+            <div class="small-12 columns">
+             <p>
+                <img class="device" data-interchange="
+                    [img/background-sm.svg, (small)]
+                    [img/background-md.svg, (medium)],
+                    [img/background-lg.svg, (large)]"
+                    src="img/background-lg.svg" />
+                </p>
+            </div>
+        </div> -->
+        <img src="img/visuel-sm.svg" data-interchange="[img/visuel-sm.svg, (only screen and (min-width: 320px))], [img/background-md.svg, (only screen and (min-width: 600px))], [img/background-lg.svg, (only screen and (min-width: 900px))]"/>
+
+
 
     <!-- Add your site or application content here -->
-    <p>Hello world!</p>
-
-    <footer>footer</footer>
 
 <!-- PLUGIN FOUNDATION -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.interchange.js"></script>
     <script>
       $(document).foundation();
     </script>
