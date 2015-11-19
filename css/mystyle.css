@@ -112,27 +112,24 @@ textarea {
        background-color: inherit;
        margin-top: 300px;
    }*/
-   body {
-     background-image: url("../img/fond.jpg");
-     background-size: cover;
-     background-position: center center;
 
-  }
+    body img {
+        clear: both;
+        z-index: 1;
+        width: 100%;
+    }
+  .top-bar {
+        margin-bottom: 20px;
+    }
 
-
-  /*@media only screen and (max-width: 599px) {
-      body {
-        background-image: url("../img/fond.jpg");
-     }
-
-  }
-   @media only screen and (max-width: 768px) {
-
-       body {
-         background-image: url("../img/fond.jpg");
-      }
-
-   }*/
+   .button {
+       z-index: 2;
+       margin-top: 400px;
+   }
+   #side {
+       margin-top: 20px;
+       float: left;
+   }
 
 
 /* ==========================================================================
