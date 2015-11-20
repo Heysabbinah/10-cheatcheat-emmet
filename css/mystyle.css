@@ -121,6 +121,9 @@ textarea {
   .top-bar {
         margin-bottom: 20px;
     }
+    #bannerlogo {
+        padding-left: 40px;
+    }
     .row block1{
         margin-left: auto;
         margin-right: auto;
@@ -155,11 +158,12 @@ textarea {
 
 @media all and (max-width:600px) {
 
-    #banner {
+    #bannerlogo {
         background-color: #363442;
         padding-bottom: 15px;
-
+        padding-top: 10px;
     }
+
 }
 }
 

@@ -95,23 +95,6 @@ textarea {
 /* ==========================================================================
    Huguette's custom styles
    ========================================================================== */
-    /*body {
-        background-color: #373543;
-    }
-    body img {
-        background-position: center center;
-        background-size:contain;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }*/
-   /*.cta {
-       width: 255px;
-       height: 135px;
-       border-color: #e94953;
-       border: 1px;
-       background-color: inherit;
-       margin-top: 300px;
-   }*/
    body {
      background-image: url("../img/fond.jpg");
      background-size: cover;
@@ -119,20 +102,72 @@ textarea {
 
   }
 
+  /* ///////////////////////////// SMARTPHONE /////////////////////////////*/
 
-  /*@media only screen and (max-width: 599px) {
-      body {
-        background-image: url("../img/fond.jpg");
-     }
+ @media only screen and (max-width: 600px) {
+
+    body {
+    overflow: hidden;
+}
+
+    #fond {
+   	/*position : relative ;*/
+   	z-index : 1;
+
+   }
+a  {
+       position : absolute;
+       z-index : 2;
+   	   bottom: 350px;
+       left: 50px;
+       right: 30px;
+   }
 
   }
-   @media only screen and (max-width: 768px) {
+  /* ///////////////////////////// TABLET /////////////////////////////*/
+
+   @media only screen and (min-width: 700px) {
 
        body {
-         background-image: url("../img/fond.jpg");
-      }
+           overflow: hidden;
+       }
+       #fond {
+      position : relative ;
+      z-index : 1;
 
-   }*/
+     }
+
+     a  {
+         position : absolute;
+         z-index : 2;
+        bottom: 500px;
+         left: 200px;
+         right: 30px;
+     }
+
+   }
+   /* ///////////////////////////// DESKTOP /////////////////////////////*/
+   @media only screen and (min-width: 900px) {
+
+       body {
+           overflow: hidden;
+       }
+
+       #fond {
+      position : relative ;
+      z-index : 1;
+
+     }
+
+     a  {
+         position : absolute;
+         z-index : 2;
+         bottom: 300px;
+         left: 200px;
+         right: 30px;
+     }
+
+   }
 
 
 /* ==========================================================================
